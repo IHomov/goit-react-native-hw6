@@ -95,3 +95,41 @@ To learn more about React Native, take a look at the following resources:
 - [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
 - [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
 - [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+
+A mobile application developed with React Native. This project focuses on UI component architecture and implementing design from Figma.
+
+🚀 Project Overview
+The goal of this assignment was to analyze a Figma design, identify key UI elements, and implement them as reusable React Native components.
+
+Key Features:
+Component-Based Architecture: Every UI element is a separate, reusable component.
+
+Figma Fidelity: The layout strictly follows the provided design (colors, spacing, and typography).
+
+Cross-Platform Ready: Styled using StyleSheet with flexbox for responsive layouts.
+
+🛠 Tech Stack
+Framework: React Native
+
+Engine: Hermes
+
+Language: TypeScript / JavaScript
+
+Styling: StyleSheet (Flexbox)
+
+📦 Implemented Components
+For this homework, I have developed the following 7 core components:
+
+Avatar: User profile image container with an "add" action button.
+
+Title: Customizable header component for screen titles.
+
+Input: Styled text entry fields with placeholder support.
+
+MainButton: Primary action button with custom styling.
+
+SecondaryText: Interactive text links for navigation (e.g., "Sign In").
+
+TaskCard: A complex card component for displaying task details (title, category, status).
+
+ScrollContainer: Implementation of ScrollView to ensure all components are accessible on one screen.
