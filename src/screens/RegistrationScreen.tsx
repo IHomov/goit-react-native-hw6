@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, ScrollView, View, Text } from 'react-native';
+import { StyleSheet, ScrollView, View, useWindowDimensions } from 'react-native';
 import { Title } from '../components/Title';
 import { Input } from '../components/Input';
 import { MainButton } from '../components/MainButton';
@@ -7,9 +7,17 @@ import { Avatar } from '../components/Avatar';
 import { SecondaryText } from '../components/SecondaryText';
 import { TaskCard } from '../components/TaskCard'; 
 
+
 const RegistrationScreen = () => {
+  const { width} = useWindowDimensions();
+
+const isLandscape = width > 500;
+const formWidth = isLandscape ? 450 : width;
   return (
-    <ScrollView style={styles.container} contentContainerStyle={styles.content}>
+    <ScrollView style={styles.container} contentContainerStyle={[
+        styles.content, 
+        { width: formWidth, alignSelf: 'center' } 
+        ]}>
      
       <View style={styles.section}>
         <Avatar />
