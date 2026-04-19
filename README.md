@@ -133,3 +133,7 @@ SecondaryText: Interactive text links for navigation (e.g., "Sign In").
 TaskCard: A complex card component for displaying task details (title, category, status).
 
 ScrollContainer: Implementation of ScrollView to ensure all components are accessible on one screen.
+<img width="967" height="453" alt="Adaptiv_horizontal" src="https://github.com/user-attachments/assets/8b3f8a4b-9bf2-4a03-a0e2-c030dd07a562" />
+<img width="452" height="607" alt="TaskScreen" src="https://github.com/user-attachments/assets/5b6e2e6f-592a-4fa8-977b-79df847aa62a" />
+<img width="592" height="676" alt="RegistrationScreen" src="https://github.com/user-attachments/assets/348c5c1d-a457-42e9-8a61-227373e1d124" />
+
